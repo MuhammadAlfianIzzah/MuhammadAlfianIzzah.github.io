@@ -1,105 +1,271 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- css -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma+2|Source+Code+Pro&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
-        <div class="container">
-            <a class="navbar-brand" href="#">Alfianizzah</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Documentasi</a>
-                    <a class="nav-item nav-link" href="#">ContactUs</a>
+    <!-- Bagian Navbar -->
+    <div class="navbar-fixed">
+        <nav class="cyan darken-4">
+            <div class="container">
+                <div class=" nav-wrapper">
+                    <a href="#home" class="brand-logo">AlfianStudy</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#aboutSite">About Me</a></li>
+                        <li><a href="#technology">Technology</a></li>
+                        <li><a href="#ebook">E-book</a></li>
+                        <li><a href="#documentasi">Documentasi</a></li>
+                        <li><a href="#contactMe">Contact Me</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!-- penutup navbar -->
-    <!-- jumbotrron -->
-    <div class="jumbotron jumbotron-fluid">
+        </nav>
+    </div>
+    <!-- Trigger Navbar Mobile -->
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#aboutSite">About Me</a></li>
+        <li><a href="#ebook">E-book</a></li>
+        <li><a href="#documentasi">Documentasi</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
+    </ul>
+    <!-- Akhir Navbar -->
+    <!-- Slide img -->
+    <div class="slider" id="home" class="home scrollspy">
+        <ul class="slides">
+            <li>
+                <img src="img/1.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Tidak perlu banting tulang</h3>
+                    <h5 class="light grey-text text-lighten-3">Kami memang tidak bekerja keras</h5>
+                    <h5 class="light grey-text text-lighten-3">Tapi otak kami selalu terus berjalan dan berkembang</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/3.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>MENULIS</h3>
+                    <h5 class="light grey-text text-lighten-3">Menulis adalah sesuatu hal yang sulit tetapi jika kamu
+                        melakukannya dengan iklas maka itu akan menjadi mudah</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/5.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>TERUS BELAJAR</h3>
+                    <h5 class="light grey-text text-lighten-3">Ingat Sejarah memang tak akan berubah sejarah akan terus
+                        seperti itu.
+                    </h5>
+                    <h5 class="light grey-text text-lighten-3">
+                        tapi Teknologi akan selalu berubah maka dari itu <strong>TERUSLAH BELAJAR</strong> jika kau tak
+                        ingin hilang di muka bumi ini.
+                    </h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <section id="aboutSite" class="about scrollspy">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <h1>WELCOME TO CSWEBSITE</h1>
-                    <p>Make Ngoding become your daily and your pleasure Lorem ipsum dolor, sit amet consectetur
-                        adipisicing elit. Aspernatur est recusandae sunt id atque accusamus repellat velit accusantium
-                        veniam minima?</p>
-                    <a href="" class="btn btn-primary">Click Here</a>
-                </div>
+                <h3 class="center light">About Us</h3>
+                <div class="col m6 light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe possimus vero
+                    officiis
+                    repudiandae tempora veritatis repellendus vitae animi odio, ipsum cum adipisci maiores, similique
+                    aliquid. Maxime rem ab distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores unde necessitatibus nulla laborum amet blanditiis mollitia tempore. Harum assumenda
+                    officia eligendi at, perspiciatis a? Voluptatem laborum explicabo officia consequuntur vel.</div>
+                <div class="col m6 light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe possimus vero
+                    officiis
+                    repudiandae tempora veritatis repellendus vitae animi odio, ipsum cum adipisci maiores, similique
+                    aliquid. Maxime rem ab distinctio Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                    dolores ex dignissimos magni pariatur! Perspiciatis quam, fugiat mollitia similique minus labore?
+                    Dolor dolores aut sapiente. Rerum pariatur natus debitis. Modi.</div>
             </div>
+        </div>
+    </section>
+    <!-- Parallax  teknologi-->\
+    <section id="technology" class="scrollspy">
+        <div class="parallax">
+            <h3>Technology</h3>
+            <div class="teknologi">
+                <img src="img/js.png" alt="" height="100px">
+                <img src="img/code.png" alt="" height="100px">
+                <img src="img/css.png" alt="" height="100px">
+            </div>
+        </div>
+    </section>
+    <!-- Boook -->
+    <section>
+        <div class="container">
+            <h2 id="ebook" class="center light scrollspy">E-Book</h2>
             <div class="row">
-                <div class="col-lg-5">
-                    <h1>Work with a team</h1>
-                    <p>By forming a team we can work faster and more fun. So form your team from now on .. Lorem ipsum
-                        dolor sit amet consectetur adipisicing elit. Dicta, porro! Facere temporibus doloremque, magnam
-                        esse assumenda quia? Rerum, quibusdam reiciendis ipsa aspernatur nemo doloribus in iure,
-                        consequuntur dolore maxime rem..</p>
-                    <a href="" class="btn btn-primary">Click Here</a>
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="img/ebook/js.jpg">
+                            <span class="card-title">Buku Javascript
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="img/ebook/css.jpg">
+                            <span class="card-title">E-book Html & Css
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="img/ebook/OS.jpg">
+                            <span class="card-title">Sistem Operasi
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="img/ebook/algoritma.jpg">
+                            <span class="card-title">E-book Algoritma
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="img/ebook/web.jpg">
+                            <span class="card-title">E-book Web
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card small">
+                        <div class="card-image">
+                            <img src="img/ebook/github.png">
+                            <span class="card-title">E-book Github
+                            </span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am
+                                convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <img src="img/alone.png" alt="" class="img-fluid image">
-    </div>
-    <!-- penutup jumbotron -->
-    <div class="container-flex">
-        <h1>Technology</h1>
-        <div class="flex-galery">
-            <img src="img/small/mtr.png" alt="">
-            <img src="img/small/code.png" alt="">
-            <img src="img/small/boots.png" alt="">
-            <img src="img/small/jquery.png" alt="">
+    </section>
+    <!-- Dokumentasi -->
+    <section>
+        <div class="documentasi scrollspy" id="documentasi">
+            <h2 class="white-text center light">Documentasi</h2>
+            <div class="img-card">
+                <div class="row">
+                    <div class="col m3 s12 image">
+                        <img src="img/ilkom/2.jpg" alt="" class="responsive-img cards materialboxed">
+
+                    </div>
+                    <div class="col m3 s12 image">
+                        <img src="img/ilkom/A.jpg" alt="" class="responsive-img cards materialboxed">
+                    </div>
+                    <div class="col m3 s12 image">
+                        <img src="img/ilkom/4.jpg" alt="" class="responsive-img cards materialboxed">
+                    </div>
+                    <div class="col m3 s12 image">
+                        <img src="img/ilkom/5.jpg" alt="" class="responsive-img cards materialboxed">
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!-- cONTAK ME -->
+    <section id="contactMe" class="scrollspy">
+        <h3 class="center">Contact Us</h3>
+        <div class="col m6 s12">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card white center">
+                            <div class="card-content black-text">
+                                <span class="card-title">
+                                    <i class="material-icons medium light-blue-text text-darken-3">thumb_up</i>
+                                </span>
+                                <h4 class="blue-text">Facebook</h4>
+                                <h6>Muhammad Alfian Izzah</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card white center">
+                            <div class="card-content black-text">
+                                <span class="card-title">
+                                    <i class="material-icons medium pink-text">favorite</i>
+                                </span>
+                                <h4 class="pink-text">Instagram</h4>
+                                <h6>@izzah_muhammad</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card white center">
+                            <div class="card-content black-text">
+                                <span class="card-title">
+                                    <i class="material-icons medium">email</i>
+                                </span>
+                                <h4 class="black-text">E-mail</h4>
+                                <h6>alfianizzah19@gmail.com</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="center">
+        <H3 class="flow-text"><i class="material-icons">copyright</i>Create By @alfianizzah</H3>
+    </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
