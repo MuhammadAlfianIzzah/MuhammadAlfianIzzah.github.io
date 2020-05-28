@@ -14,3 +14,4 @@ M.ScrollSpy.init(scroolSpy, {
 });
 const materialboxed = document.querySelectorAll('.materialboxed');
 M.Materialbox.init(materialboxed);
+console.log('OKE');
